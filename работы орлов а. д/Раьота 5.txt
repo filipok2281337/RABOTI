@@ -1,0 +1,166 @@
+#include <iostream>
+using namespace std;
+int main() {
+	setlocale(0, "");
+
+	cout << "[+] Переводчик\n\n[1] Русские слова\n\n[2] Английские слова\n\n[3] Выйти\n\n[+] Ввод: ";
+	int i;
+	cin >> i;
+	switch (i) {
+	case 1: {
+		cout << "\n[1]Белый \n[2]Черный \n[3]Розовый \n[4]Зеленый \n[5]Красный \n[6]Синий \n[7]Серый \n[8]Желтый \n[9]Коричнивый \n[10]Фиолетовый \n[11]Рыжий \n[12]Пурпурный \n[13]Яйцо \n[14]Член \n[15]Человек \n[+] Выберите номер слова: ";
+		cin >> i;
+		switch (i) {
+		case 1: {
+			cout << "Перевод:white ";
+			break;
+		}
+		case 2: {
+			cout << "Перевод:Black ";
+			break;
+		}
+		case 3: {
+			cout << "Перевод:Pink ";
+			break;
+		}
+		case 4: {
+			cout << "Перевод:Green ";
+			break;
+		}
+		case 5: {
+			cout << "Перевод:REd ";
+			break;
+		}
+		case 6: {
+			cout << "Перевод:Blue ";
+			break;
+		}
+		case 7: {
+			cout << "Перевод:Grey ";
+			break;
+		}
+		case 8: {
+			cout << "Перевод:Yallow ";
+			break;
+		}
+		case 9: {
+			cout << "Перевод:Brown ";
+			break;
+		}
+		case 10: {
+			cout << "Перевод:Purple ";
+			break;
+		}
+		case 11: {
+			cout << "Перевод:Orange ";
+			break;
+		}
+		case 12: {
+			cout << "Перевод:violet ";
+			break;
+		}
+		case 13: {
+			cout << "Перевод:Egg ";
+			break;
+		}
+		case 14: {
+			cout << "Перевод:Member ";
+			break;
+		}
+		case 15: {
+			cout << "Перевод:Men ";
+			break;
+		}
+		case 993: {
+			cout << "Я гуль ";
+			break;
+		}
+		default: {
+			cout << "1000-7 Попробуй еще раз";
+			return 0;
+		}
+		}
+		break;
+	}
+	case 2: {
+		cout << "\n[1]Fiend \n[2]Crown \n[3]Clown \n[4]Divine \n[5]Grandfather \n[6]Inside \n[7]Mask \n[8]Madness \n[9]Shadow \n[10]Amulet \n[11]Down \n[12]Team \n[13]Trash \n[14]Level \n[15]rapier \n[+] Выберите номер слова: ";
+		cin >> i;
+		switch (i) {
+		case 1: {
+			cout << "Перевод:Злодей ";
+			break;
+		}
+		case 2: {
+			cout << "Перевод:Корона ";
+			break;
+		}
+		case 3: {
+			cout << "Перевод:Kлоун ";
+			break;
+		}
+		case 4: {
+			cout << "Перевод:Божественый ";
+			break;
+		}
+		case 5: {
+			cout << "Перевод:Дед ";
+			break;
+		}
+		case 6: {
+			cout << "Перевод: Внутри";
+			break;
+		}
+		case 7: {
+			cout << "Перевод:Маска ";
+			break;
+		}
+		case 8: {
+			cout << "Перевод:Безумие ";
+			break;
+		}
+		case 9: {
+			cout << "Перевод:Тень ";
+			break;
+		}
+		case 10: {
+			cout << "Перевод: Амулет";
+			break;
+		}
+		case 11: {
+			cout << "Перевод:Вниз ";
+			break;
+		}
+		case 12: {
+			cout << "Перевод:Команда ";
+			break;
+		}
+		case 13: {
+			cout << "Перевод:Мусор ";
+			break;
+		}
+		case 14: {
+			cout << "Перевод:Уровень ";
+			break;
+		}
+		case 15: {
+			cout << "Перевод:Рапира ";
+			break;
+		}
+		case 993: {
+			cout << "Я гуль ";
+			break;
+		}
+		default: {
+			cout << "1000-7 Попробуй еще раз";
+			return 0;
+		}
+		}
+		break;
+	}
+	default: {
+		return 0;
+	}
+	}
+
+	return 0;
+}
